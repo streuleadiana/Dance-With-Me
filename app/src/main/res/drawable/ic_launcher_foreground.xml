@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Arc de mișcare / undă dinamică Neon Emerald (#00E676) în zona safe-zone -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,42 C36,27 72,27 78,42"
+        android:strokeWidth="2.4"
+        android:strokeColor="#8800E676"
+        android:strokeLineCap="round" />
+
+    <!-- Siluetă Stickman Dansator în mișcare (Electric Cyan #00E5FF) -->
+    <!-- Trunchi și umeri -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M43,43 L65,43 M54,43 L52,60 M46,60 L58,60"
+        android:strokeWidth="4.2"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Brațul stâng ridicat în pas de dans -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M43,43 L34,37 L37,28"
+        android:strokeWidth="4.0"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Brațul drept extins ritmic -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M65,43 L74,40 L76,31"
+        android:strokeWidth="4.0"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Piciorul stâng flexat în pas de dans -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M47,60 L41,71 L44,80"
+        android:strokeWidth="4.2"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Piciorul drept în fandare dinamică -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M57,60 L65,70 L62,80"
+        android:strokeWidth="4.2"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Capul dansatorului (Alb #FFFFFF cu contur Cyan #00E5FF) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,33m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0"
+        android:strokeWidth="2.0"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Articulații (Joint Landmarks AI în Alb #FFFFFF) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M43,43m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0
+            M65,43m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0
+            M34,37m-2.0,0a2.0,2.0 0,1 1,4.0 0a2.0,2.0 0,1 1,-4.0 0
+            M74,40m-2.0,0a2.0,2.0 0,1 1,4.0 0a2.0,2.0 0,1 1,-4.0 0
+            M47,60m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0
+            M57,60m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0
+            M41,71m-2.0,0a2.0,2.0 0,1 1,4.0 0a2.0,2.0 0,1 1,-4.0 0
+            M65,70m-2.0,0a2.0,2.0 0,1 1,4.0 0a2.0,2.0 0,1 1,-4.0 0" />
+</vector>
